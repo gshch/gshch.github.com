@@ -18,7 +18,7 @@ tagline: Supporting tagline
 			
 
 <ul class="tag_box inline">
-  {test}</ul>
+  <p>test</p></ul>
 
 \> Articles:
 
