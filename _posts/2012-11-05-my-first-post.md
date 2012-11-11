@@ -6,3 +6,7 @@ category:
 tags: []
 ---
 {% include JB/setup %}
+
+Just to test the system.
+
+How I hope wm enables Chinese input!
