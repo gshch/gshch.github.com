@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Xi's Tide House 
+title: 
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
