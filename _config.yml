@@ -15,7 +15,7 @@ plugins:     ./_plugins
 permalink: /:year/:month/:day/:title
 
 ## Variables
-title : Xi's Tide House
+title : Xi's
 description : My place to think, to communicate, to learn. 
 url : http://gshch.github.com
 tagline : Xi

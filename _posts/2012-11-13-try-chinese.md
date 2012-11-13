@@ -4,6 +4,7 @@ title: "try chinese?"
 description: ""
 category: 
 tags: []
+permalink: /2012/11/13/
 ---
 
 
