@@ -1,6 +1,6 @@
 safe:        true
-auto:        true
-server:      true
+auto:        false
+server:      false
 baseurl:     /
 
 future:      true
