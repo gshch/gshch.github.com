@@ -15,15 +15,15 @@ plugins:     ./_plugins
 permalink: /:year/:month/:day/:title
 
 ## Variables
-title : m8ck
-description : Yet another weblog about technology and web development 
-url : http://m8ck.us.to
-tagline : yet another weblog
-author :
-  name : m8ck
-  email : magnus.f.vadoy@gmail.com
-  github : m8ck
-  twitter : m8ck
-  feedburner : m8ck
+title : Xi's Tide House
+description : My place to think, to communicate, to learn. 
+url : http://gshch.github.com
+tagline : Xi
+author : 
+  name : Yanxi
+  email : ye.gshch@gmail.com
+  github : gshch
+  twitter : 
+  feedburner : 
   
-production_url : http://m8ck.us.to
+production_url : http://gshch.github.com
