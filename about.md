@@ -6,10 +6,8 @@ tagline: Supporting tagline
 {% include JB/setup %}
 
 
-<section role="banner">
   <img src="/img/1.jpg" width="576" height="360" />
-  </section>
- <section class="content">
+
 <p>> 我是湮汐，喜欢水，喜欢宅，喜欢钻牛角尖，喜欢折腾。<br>     
   
   <br>
@@ -24,4 +22,3 @@ tagline: Supporting tagline
   ❤ 想要慢慢探索，学着网页设计，学着自己写HTML，拥有自己的小天地。<br>
   <br>
   -- Nov.11 2012</p>
-  </section>
