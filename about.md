@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-description: "About Me"
+title: 
+tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
