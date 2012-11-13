@@ -6,11 +6,11 @@ require 'time'
 SOURCE = "."
 CONFIG = {
   'version' => "0.2.13",
-  'themes' => File.join(SOURCE, "_includes", "themes"),
+#  'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
   'post_ext' => "md",
-  'theme_package_version' => "0.1.0"
+#  'theme_package_version' => "0.1.0"
 }
 
 # Path configuration helper
@@ -19,9 +19,9 @@ module JB
     SOURCE = "."
     Paths = {
       :layouts => "_layouts",
-      :themes => "_includes/themes",
-      :theme_assets => "assets/themes",
-      :theme_packages => "_theme_packages",
+ #     :themes => "_includes/themes",
+  #    :theme_assets => "assets/themes",
+   #   :theme_packages => "_theme_packages",
       :posts => "_posts"
     }
     
@@ -66,7 +66,7 @@ task :post do
     post.puts "category: "
     post.puts "tags: []"
     post.puts "---"
-    post.puts "{% include JB/setup %}"
+#    post.puts "{% include JB/setup %}"
   end
 end # task :post
 
@@ -91,7 +91,7 @@ task :page do
     post.puts "title: \"#{title}\""
     post.puts 'description: ""'
     post.puts "---"
-    post.puts "{% include JB/setup %}"
+#    post.puts "{% include JB/setup %}"
   end
 end # task :page
 
@@ -101,9 +101,9 @@ task :preview do
 end # task :preview
 
 # Public: Alias - Maintains backwards compatability for theme switching.
-task :switch_theme => "theme:switch"
+# task :switch_theme => "theme:switch"
 
-namespace :theme do
+# namespace :theme do
   
   # Public: Switch from one theme to another for your blog.
   #
@@ -115,12 +115,12 @@ namespace :theme do
   #   rake theme:switch name="the-program"
   #
   # Returns Success/failure messages.
-  desc "Switch between Jekyll-bootstrap themes."
-  task :switch do
-    theme_name = ENV["name"].to_s
-    theme_path = File.join(CONFIG['themes'], theme_name)
-    settings_file = File.join(theme_path, "settings.yml")
-    non_layout_files = ["settings.yml"]
+  # desc "Switch between Jekyll-bootstrap themes."
+  # task :switch do
+  # theme_name = ENV["name"].to_s
+  # theme_path = File.join(CONFIG['themes'], theme_name)
+  # settings_file = File.join(theme_path, "settings.yml")
+  # non_layout_files = ["settings.yml"]
 
     abort("rake aborted: name cannot be blank") if theme_name.empty?
     abort("rake aborted: '#{theme_path}' directory not found.") unless FileTest.directory?(theme_path)
@@ -137,11 +137,11 @@ namespace :theme do
           page.puts "---"
         else
           page.puts "---"
-          page.puts "layout: default"
+          page.puts "layout: layout"
           page.puts "---"
         end 
-        page.puts "{% include JB/setup %}"
-        page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}" 
+#        page.puts "{% include JB/setup %}"
+ #       page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}" 
       end
     end
     
