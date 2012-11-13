@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<div class="chinese"><p><<任它潮起潮落 且自静候花开>></p></div>     
+<<任它潮起潮落 且自静候花开>>     
                     
                
    
