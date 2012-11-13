@@ -9,11 +9,7 @@ description: Try to build my blog
 
 		<header>
 			
-				{% if post.link %}
-				<h3><a href="{{ post.link }}" class="link-post">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a> → </h3>
-			  {% else %}
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				{% endif %}
+				<h3><a href="{{ post.url }}" class="link-post">{{ post.title }}</a></h2>
 				<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> – 
 				<a href="{{ post.url }}" class="permalink" title="Permalink">Permalink</a>
 				
