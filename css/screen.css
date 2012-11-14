@@ -76,7 +76,7 @@ h6 { font-size: 12px; }
 }
 
 /* back to top */
-#back-top {
+.scrollup {
 	position: fixed;
 	bottom: 0;
 	margin-left: -220px;
@@ -84,7 +84,7 @@ h6 { font-size: 12px; }
 	text-align: right;
 	clear: both;
 }
-#back-top a {
+.scrollup a {
 	color: #ada597;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -93,15 +93,15 @@ h6 { font-size: 12px; }
 	-o-transition: background-color .7s;
 	transition: background-color .7s;
 }
-#back-top a:hover {
+.scrollup a:hover {
 	color: #615349;
 }
-#back-top em {
+.scrollup em {
 	font: normal 12px/100% "Lucida Grande", Arial, "Lucida Sans Unicode", sans-serif;
 	letter-spacing: 1px;
 	float: right;
 }
-#back-top span {
+.scrollup span {
 	width: 28px;
 	height: 28px;
 /*	background: url(images/nav-icons.png) no-repeat -8px -577px;*/

@@ -11,6 +11,24 @@
 	<link href="/css/screen.css" media="screen" rel="stylesheet" />
 	<link href="/css/pygments.css" media="screen" rel="stylesheet" />
 	<link rel="alternate"  href="http://feeds.feedburner.com/m8ck" type="application/rss+xml" title="RSS Feed"/>
+	<script type="text/javascript">
+    $(document).ready(function(){ 
+ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+ 
+    });
+</script>
 </head>
 <body>
 	
@@ -38,7 +56,7 @@
 			</div>
 			
 			<div class="clear"></div>
-		<p id="back-top"><a href="#top"><span></span><em>Back to top</em> </a></p>
+		<p class="scrollup"><a href="#"><span></span><em>Back to top</em> </a></p>
 		</footer>	
 	
 	</div>
