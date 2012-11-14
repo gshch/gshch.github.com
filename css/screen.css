@@ -106,7 +106,7 @@ h6 { font-size: 12px; }
 	height: 28px;
 /*	background: url(images/nav-icons.png) no-repeat -8px -577px;*/
 	background-color: rgba(255,255,255,1);
-	display: block;
+/*	display: block;*/
 	float: right;
 	cursor: pointer;
 	margin: -8px 0 0 6px;
