@@ -104,7 +104,7 @@ h6 { font-size: 12px; }
 #back-top span {
 	width: 28px;
 	height: 28px;
-	background: url(images/nav-icons.png) no-repeat -8px -577px;
+/*	background: url(images/nav-icons.png) no-repeat -8px -577px;*/
 	background-color: rgba(255,255,255,1);
 	display: block;
 	float: right;
