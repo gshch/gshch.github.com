@@ -232,7 +232,7 @@ h6 { font-size: 12px; }
 	margin: 20px 0 0 0;
 	padding: 12px 0 12px 0;
 	border-top: 2px solid #eee;
-	line-height: 1em;
+	line-height: 0.8em;
 }
 #footer .grid {
 	width: 30%;
