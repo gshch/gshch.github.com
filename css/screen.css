@@ -89,7 +89,7 @@ h6 { font-size: 12px; }
 	clear: both;
 }
 .scrollup a {
-	color: #ada597;
+	color: /*#ada597*/#DEDBA7;
 	text-transform: uppercase;
 	text-decoration: none;
 	-webkit-transition: background-color .7s;
