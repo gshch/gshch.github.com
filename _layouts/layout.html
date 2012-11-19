@@ -30,18 +30,25 @@
  
     });
 </script>
+	<script type="text/javascript" src="http://webdesignerwall.com/wp-content/themes/wall/js/script.js"></script>
 </head>
 <body>
 	
 	<div id="wrapper">
 		
-		<header id="masterhead">
+		<header id="header">
 			<h1 id="header"><a href="/">Xi's</a></h1>
-				<nav>
-					<a href="/archive.html">Archive</a>
-				</nav>
 			<div class="clear"></div>
 	<nav>
+				<ul id="social-nav">
+					<li class="twitter">
+						<em>23307 followers</em>
+						<a href="http://twitter.com/nickla">Twitter</a>
+					</li>
+					<li class="rss">
+						<em> 0 subscribers</em>						<a href="http://feeds2.feedburner.com/WebDesignerWall">RSS</a>
+					</li>
+				</ul>
 				<ul id="main-nav" class="clearfix">
 					<li class="about"><a href="http://webdesignerwall.com/about">About</a></li>
 					<li class="contact"><a href="http://webdesignerwall.com/contact">Contact</a></li>
@@ -50,13 +57,15 @@
 			</nav>
 		
 		</header>
-			
+<div id="contentwrap">
+	<div id="content">	
 		<section>
 		
 			{{ content }}
 		
 		</section>
-
+</div>
+</div>
 		<footer id="footer">
 
 			<div class="grid">
