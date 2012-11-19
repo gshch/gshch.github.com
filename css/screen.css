@@ -2,7 +2,7 @@
 /* Body styles 
 /******************************/
 body {
-	background: #fff;
+	background: /*#fff*/#DEDBA7;
 	/*color: #222222;*/
 	color: #1A202C;
 	font-family: "Droid Serif", Georgia, Times, serif;
