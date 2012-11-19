@@ -3,7 +3,8 @@
 /******************************/
 body {
 	background: #fff;
-	color: #222222;
+	/*color: #222222;*/
+	color: #1A202C;
 	font-family: "Droid Serif", Georgia, Times, serif;
 	font-size: 15px;
 }
@@ -71,7 +72,7 @@ h6 { font-size: 12px; }
 #header a {
 	text-decoration: none;
 	/* 在这里改大标题颜色 */
-	color: #1A202C;
+	/*color: #1A202C;*/
 }
 #header a:hover {
 	text-decoration: underline;
