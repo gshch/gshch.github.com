@@ -188,7 +188,8 @@ h6 { font-size: 12px; }
 	padding: 0 20px;
 }
 .post a {
-	color: #b5190e;
+	/*color: #b5190e;*/
+	color: #FF7260;
 	text-decoration: none;
 }
 .post a:hover {
