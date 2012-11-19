@@ -153,9 +153,9 @@ h6 { font-size: 12px; }
 .post header a.link-post {
 	/* text-decoration: underline; */
 	/*color: #b5190e;*/
-	/*color: #FF0033;*/
+	color: #FF0033;
 	/*color: #FF7260;*/
-	color: #FD795B;
+	/*color: #FD795B;*/
 	border-bottom: none;
 	font-weight: 200;
 }
