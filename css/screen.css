@@ -2,6 +2,8 @@
 /* Body styles 
 /******************************/
 body {
+	padding-left: 225px;
+	padding-top: 100px;
 	background: /*#fff*//*#F5FAFA*/#FDF8F2;
 	/*color: #222222;*/
 	color: #1A202C;
