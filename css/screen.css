@@ -70,6 +70,7 @@ h6 { font-size: 12px; }
 }
 #header a {
 	text-decoration: none;
+	color: #98D7D5;
 }
 #header a:hover {
 	text-decoration: underline;
@@ -154,8 +155,7 @@ h6 { font-size: 12px; }
 	/* text-decoration: underline; */
 	/*color: #b5190e;*/
 	/*color: #FF0033;*/
-	/*color: #FF7260;*/
-	color: #DA3F31;
+	color: #FF7260;
 	/*color: #FD795B;*/
 	border-bottom: none;
 	font-weight: 200;
