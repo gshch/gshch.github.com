@@ -284,9 +284,10 @@ MAIN NAV
 }
 .post header h2 a:hover {
 	border-bottom: none;
+	text-decoration: none;
 }
 .post header a.link-post {
-	/* text-decoration: underline; */
+	text-decoration: underline;
 	/*color: #b5190e;*/
 	/*color: #FF0033;*/
 	color: #FF7260;
