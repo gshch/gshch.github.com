@@ -136,10 +136,11 @@ h6 { font-size: 12px; }
 MAIN NAV
 /*************************************************************************************/
 #main-nav {
-	margin: 0 300px 0 0;
+	margin: 0;
 	padding: 0 0 8px 0;
 	position: fixed;
-	float: left;
+	top: 50px;
+	left: 20px;
 }
 #main-nav li {
 	padding: 0;
