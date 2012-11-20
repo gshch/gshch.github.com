@@ -287,13 +287,16 @@ MAIN NAV
 	text-decoration: none;
 }
 .post header a.link-post {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	/*color: #b5190e;*/
 	/*color: #FF0033;*/
 	color: #FF7260;
 	/*color: #FD795B;*/
 	border-bottom: none;
 	font-weight: 200;
+}
+.post header a.link-post:hover {
+	text-decoration: underline;
 }
 .post header h3 {
 	margin: 5px 0;
