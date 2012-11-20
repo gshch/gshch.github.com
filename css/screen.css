@@ -300,6 +300,7 @@ MAIN NAV
 }
 .post header a.link-post:hover {
 	text-decoration: none;
+	color: #1a202c;
 }
 .post header h3 {
 	margin: 5px 0;
