@@ -139,6 +139,7 @@ MAIN NAV
 	margin: 0;
 	padding: 0 200px 8px 0;
 	position: fixed;
+	float: left;
 }
 #main-nav li {
 	padding: 0;
