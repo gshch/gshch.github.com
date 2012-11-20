@@ -76,7 +76,7 @@ h6 { font-size: 12px; }
 	/*color: #1A202C;*/
 }
 #header a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /* back to top */
@@ -284,7 +284,6 @@ MAIN NAV
 }
 .post header h2 a:hover {
 	border-bottom: none;
-	text-decoration: none;
 }
 .post header a.link-post {
 	/* text-decoration: underline; */
@@ -295,9 +294,6 @@ MAIN NAV
 	border-bottom: none;
 	font-weight: 200;
 	text-decoration: none;
-}
-.post header a.link-post :hover {
-	color: #1a202c;
 }
 .post header h3 {
 	margin: 5px 0;
