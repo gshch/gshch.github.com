@@ -328,7 +328,7 @@ MAIN NAV
 	text-decoration: underline;
 }
 .post a:active {
-	text:expression(target="_blank");
+	text: expression(target="_blank");
 }
 .post pre {
 	padding: 10px 40px;
