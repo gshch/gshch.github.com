@@ -298,7 +298,7 @@ MAIN NAV
 	text-shadow: 0 2px 0 #fcf9ee, 0 3px 0 rgba(0,0,0,.15);
 }
 .post header a.link-post:hover {
-	text-decoration: underline;
+	text-decoration:blink;
 }
 .post header h3 {
 	margin: 5px 0;
