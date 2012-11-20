@@ -52,7 +52,7 @@ h6 { font-size: 12px; }
 /******************************/
 #masterhead {
 	padding: 20px 0;
-	margin: 0 100px 20px 0; 
+	margin: 0 0 20px 0; 
 }
 #masterhead nav {
 	margin: 20px 0 0 0;
@@ -67,7 +67,7 @@ h6 { font-size: 12px; }
 	font-size: 42px;
 	float: left;
 	width: 100px;
-	margin: 0;
+	margin-left: -200px;
 }
 #header a {
 	text-decoration: none;
