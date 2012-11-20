@@ -285,7 +285,6 @@ MAIN NAV
 .post header h2 a:hover {
 	border-bottom: none;
 	text-decoration: none;
-	color: #000;
 }
 .post header a.link-post {
 	/* text-decoration: underline; */
@@ -296,6 +295,9 @@ MAIN NAV
 	border-bottom: none;
 	font-weight: 200;
 	text-decoration: none;
+}
+.post header .link-post a:hover {
+	color: #1a202c;
 }
 .post header h3 {
 	margin: 5px 0;
