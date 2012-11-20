@@ -262,7 +262,6 @@ MAIN NAV
 
 .post {
 	padding: 10px 0 20px 0;
-	
 	line-height: 1.5em;
 	/*border-bottom: 5px solid #eee;*/
 }
@@ -285,6 +284,7 @@ MAIN NAV
 }
 .post header h2 a:hover {
 	border-bottom: none;
+	text-decoration: none;
 }
 .post header a.link-post {
 	/* text-decoration: underline; */
