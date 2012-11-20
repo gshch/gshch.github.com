@@ -296,7 +296,7 @@ MAIN NAV
 	font-weight: 200;
 	text-decoration: none;
 }
-.post header .link-post a:hover {
+.post header a.link-post :hover {
 	color: #1a202c;
 }
 .post header h3 {
