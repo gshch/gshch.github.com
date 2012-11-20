@@ -32,6 +32,9 @@ h4 { font-size: 16px; }
 h5 { font-size: 14px; }
 h6 { font-size: 12px; }
 
+h1, h2 {
+	text-shadow: 0 2px 0 #fcf9ee, 0 4px 0 rgba(0,0,0,.15);
+}
 
 /******************************
 /* Media Queries 
