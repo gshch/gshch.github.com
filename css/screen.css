@@ -323,9 +323,14 @@ MAIN NAV
 	/*color: #b5190e;*/
 	color: #FF7260;
 	text-decoration: none;
+	
 }
 .post a:hover {
 	text-decoration: underline;
+}
+
+.post a:active {
+	test:expression(target="_blank");
 }
 .post pre {
 	padding: 10px 40px;
