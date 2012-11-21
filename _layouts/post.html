@@ -17,7 +17,21 @@ layout: layout
     	{{ content }}
 
   	</article>
-	
+	<nav> 
+				<ul class="post-nav clearfix">
+					<li class="prev">
+						{% if page.previous.url %} 
+                <a href="{{page.previous.url}}" title="Previous Post: 
+{{page.previous.title}}">&laquo; {{page.previous.title}}</a> 
+        				{% endif %} </li>
+					<li class="next">
+						{% if page.next.url %} 
+                <a href="{{page.next.url}}" title="next Post: 
+{{page.next.title}}">{{page.next.title}} &raquo; </a> 
+				        {% endif %} </li>
+				</ul>
+			</nav>
+			
 	<!--<p id="related-posts">
 		<h3>Related Posts</h3>
 	  	{% for related in site.related_posts limit:5 %}

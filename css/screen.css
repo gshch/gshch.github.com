@@ -351,6 +351,69 @@ MAIN NAV
 	margin-bottom: 10px;
 }
 
+/************************************************************************************
+POST NAVIGATION
+*************************************************************************************/
+.post-nav {
+	background: url(images/dashed-double.png) repeat-x;
+	padding-top: 30px;
+	margin: 20px 0 10px;
+	clear: both;
+	font: normal 100%/140% 'Copse', Georgia, serif;
+}
+.post-nav li {
+	margin: 0 0 10px;
+	padding: 0;
+	list-style: none;
+	float: left;
+	width: 45%;
+}
+.post-nav span {
+	background: url(images/nav-icons.png) no-repeat -2px -977px;
+	width: 30px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin: 3px 5px 25px 0;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: background-color .7s;
+	-moz-transition: background-color .7s;
+	-o-transition: background-color .7s;
+	transition: background-color .7s;
+}
+.post-nav em {
+	text-transform: uppercase;
+	display: block;
+	font: normal 11px "Lucida Grande", Arial, "Lucida Sans Unicode", sans-serif;
+	margin-bottom: 2px;
+	letter-spacing: .2em;
+	color: #7e7e73;
+}
+.post-nav a {
+	text-decoration: none;
+	font-size: 115%;
+	color: #91070b;
+}
+.post-nav a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.post-nav a:hover span {
+	background-color: #f5ec82;
+	background-color: rgba(245,236,130,.8);
+}
+.post-nav .next {
+	float: right;
+	text-align: right;
+}
+.post-nav .next span {
+	float: right;
+	background-position: -2px -1072px;
+	margin: 3px 0 25px 5px;
+}
+
 /******************************
 /* Archive
 /******************************/
