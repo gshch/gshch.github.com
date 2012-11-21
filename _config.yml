@@ -12,7 +12,7 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 
-permalink: date
+permalink: /:categories/:year/:month/:day/:title/
 
 ## Variables
 title : Xi's
