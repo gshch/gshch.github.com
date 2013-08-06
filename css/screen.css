@@ -168,7 +168,7 @@ MAIN NAV
 }
 #main-nav a:hover {
 	color: #000;
-	background-color: #f5ec82;
+	/*background-color: #f5ec82;*/
 	/*background-color: rgba(245,236,130,.8);*/
 }
 #main-nav .home a {
