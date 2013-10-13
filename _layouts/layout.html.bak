@@ -43,7 +43,6 @@
 				<ul id="main-nav" class="clearfix">
 					<li class="archives"><a href="/archive.html">Archive</a></li>
 					<li class="archives"><a href="/categories.html">Categories</a></li>
-					<li class="archives"><a href="/tags.html">Tags</a></li>
 					<li class="photos"><a href="/photos.html">Photos</a></li>
 					<li class="about"><a href="/about.html">About</a></li>
 				</ul>
