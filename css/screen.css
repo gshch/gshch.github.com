@@ -2,15 +2,15 @@
 /* Body styles 
 /******************************/
 body {
-	background: /*#fff*//*#F5FAFA*//*#FDF8F2*/#FFFFCC;
+	background: white;
 	/*color: #222222;*/
-	color: #1A202C;
+	color: /*#1A202C*/#646464;
 	font-family: "Droid Serif", Georgia, Times, serif;
 	font-size: 15px;
 }
 a {
 	text-decoration: underline;
-	color: #444;
+	color: /*#444*/#222222;
 }
 a:hover {
 	text-decoration: none;
@@ -153,7 +153,7 @@ MAIN NAV
 }
 #main-nav a {
 	/*color: #8f0206*/;
-	color: #CC9999;
+	color: /*#CC9999*/#646464;
 	/*color: #ff7260;原来的颜色，文章标题也是*/
 	text-decoration: none;
 	font-size: 14px;
@@ -168,7 +168,7 @@ MAIN NAV
 	transition: background-color .7s;
 }
 #main-nav a:hover {
-	color: #000;
+	color: /*#000*/#222222;
 	/*background-color: #f5ec82;*/
 	/*background-color: rgba(245,236,130,.8);*/
 }
@@ -280,8 +280,7 @@ MAIN NAV
 }
 .post header h2 a {
 	text-decoration: none;
-	/*color: #222222;*/
-	color: #FF7260;
+	color: #222222;
 	border-bottom: none;
 }
 .post header h2 a:hover {
@@ -292,8 +291,8 @@ MAIN NAV
 	/*text-decoration: underline;*/
 	/*color: #b5190e;*/
 	/*color: #FF0033;*/
-	/*color: #FF7260;*/
-	color: #CC9999;
+	color: #222222;
+	/*color: #CC9999;*/
 	/*color: #FD795B;*/
 	border-bottom: none;
 	font-weight: 350;
