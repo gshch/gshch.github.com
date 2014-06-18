@@ -1,0 +1,480 @@
+[33mcommit 21a6d42d11089d134a6ca6bad393ea80e8fca6db[m
+Author: gshch <ye.gshch@gmail.com>
+Date:   Sun Oct 13 18:24:28 2013 +0800
+
+    rm
+
+[1mdiff --git a/css/screen.css.bak b/css/screen.css.bak[m
+[1mdeleted file mode 100644[m
+[1mindex 38ce2b2..0000000[m
+[1m--- a/css/screen.css.bak[m
+[1m+++ /dev/null[m
+[36m@@ -1,467 +0,0 @@[m
+[31m-/******************************[m
+[31m-/* Body styles [m
+[31m-/******************************/[m
+[31m-body {[m
+[31m-	background: white;[m
+[31m-	/*color: #222222;*/[m
+[31m-	color: /*#1A202C*/#646464;[m
+[31m-	font-family: "Droid Serif", Georgia, Times, serif;[m
+[31m-	font-size: 15px;[m
+[31m-}[m
+[31m-a {[m
+[31m-	text-decoration: underline;[m
+[31m-	color: /*#444*/#222222;[m
+[31m-}[m
+[31m-a:hover {[m
+[31m-	text-decoration: none;[m
+[31m-}[m
+[31m-#wrapper {[m
+[31m-	width: 600px;[m
+[31m-	margin: 0 auto;[m
+[31m-	padding: 0;[m
+[31m-}[m
+[31m-.clear {[m
+[31m-	clear: both;[m
+[31m-	float: none;[m
+[31m-}[m
+[31m-[m
+[31m-h1 { font-size: 22px; }[m
+[31m-h2 { font-size: 20px; }[m
+[31m-h3 { font-size: 18px; }[m
+[31m-h4 { font-size: 16px; }[m
+[31m-h5 { font-size: 14px; }[m
+[31m-h6 { font-size: 12px; }[m
+[31m-[m
+[31m-[m
+[31m-/******************************[m
+[31m-/* Media Queries [m
+[31m-/******************************/[m
+[31m-[m
+[31m-/* iPad [portrait + landscape] */[m
+[31m-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {[m
+[31m-	#wrapper { width: 95%; }[m
+[31m-}[m
+[31m-[m
+[31m-/* iPhone [portrait + landscape] */[m
+[31m-@media only screen and (max-device-width: 480px) {[m
+[31m-	#wrapper { width: 95%; }[m
+[31m-}[m
+[31m-[m
+[31m-/******************************[m
+[31m-/* Header [m
+[31m-/******************************/[m
+[31m-#masterhead {[m
+[31m-	padding: 20px 0;[m
+[31m-	margin: 0 0 20px 0; [m
+[31m-}[m
+[31m-#masterhead nav {[m
+[31m-	margin: 20px 0 0 0;[m
+[31m-	text-align: right;[m
+[31m-	float: right;[m
+[31m-}[m
+[31m-#masterhead nav a {[m
+[31m-	font-style italic;[m
+[31m-}[m
+[31m-#header {[m
+[31m-	text-align: left;[m
+[31m-	font-size: 55px;[m
+[31m-	float: left;[m
+[31m-	width: 100px;[m
+[31m-	margin-left: -175px;[m
+[31m-	position: fixed;[m
+[31m-}[m
+[31m-#header a {[m
+[31m-	text-decoration: none;[m
+[31m-	text-shadow: 0 2px 0 #fcf9ee, 0 4px 0 rgba(0,0,0,.15);[m
+[31m-	/* ÔÚÕâÀï¸Ä´ó±êÌâÑÕÉ« */[m
+[31m-	/*color: #1A202C;*/[m
+[31m-}[m
+[31m-#header a:hover {[m
+[31m-	text-decoration: none;[m
+[31m-}[m
+[31m-[m
+[31m-/* back to top */[m
+[31m-.scrollup {[m
+[31m-	position: fixed;[m
+[31m-	bottom: 0;[m
+[31m-	margin-left: -220px;[m
+[31m-	width: 180px;[m
+[31m-	text-align: right;[m
+[31m-	display:none;[m
+[31m-	clear: both;[m
+[31m-}[m
+[31m-.scrollup a {[m
+[31m-	color: #ada597;[m
+[31m-	text-transform: uppercase;[m
+[31m-	text-decoration: none;[m
+[31m-	-webkit-transition: background-color .7s;[m
+[31m-	-moz-transition: background-color .7s;[m
+[31m-	-o-transition: background-color .7s;[m
+[31m-	transition: background-color .7s;[m
+[31m-}[m
+[31m-.scrollup a:hover {[m
+[31m-	color: #615349;[m
+[31m-}[m
+[31m-.scrollup em {[m
+[31m-	font: normal 12px/100% "Lucida Grande", Arial, "Lucida Sans Unicode", sans-serif;[m
+[31m-	letter-spacing: 1px;[m
+[31m-	float: right;[m
+[31m-}[m
+[31m-.scrollup span {[m
+[31m-	width: 28px;[m
+[31m-	height: 28px;[m
+[31m-/*	background: url(images/nav-icons.png) no-repeat -8px -577px;*/[m
+[31m-/*	background-color: rgba(255,255,255,1);*/[m
+[31m-/*	display: block;*/[m
+[31m-	float: right;[m
+[31m-	cursor: pointer;[m
+[31m-	margin: -8px 0 0 6px;[m
+[31m-	-webkit-border-radius: 10em;[m
+[31m-	-moz-border-radius: 10em;[m
+[31m-	border-radius: 10em;[m
+[31m-}[m
+[31m-/*#back-top a:hover span {[m
+[31m-	background-color: #f5ec82;[m
+[31m-	background-color: rgba(245,236,130,.8);[m
+[31m-}*/[m
+[31m-[m
+[31m-/* clearfix */[m
+[31m-.clearfix:after, section li:after, footer:after, .post-title:after, .btn:after, .gallery:after, .pagenav:after, #main-nav:after[m
+[31m-{ visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }[m
+[31m-.clearfix, section li, footer, .post-title, .btn, .gallery, .pagenav, #main-nav [m
+[31m-{ display: inline-block; }[m
+[31m-/* clearfix for ie7 */[m
+[31m-.clearfix, section li, footer, .post-title, .btn, .gallery, .pagenav, #main-nav [m
+[31m-{ display: block; }[m
+[31m-[m
+[31m-/************************************************************************************[m
+[31m-MAIN NAV[m
+[31m-/*************************************************************************************/[m
+[31m-#main-nav {[m
+[31m-	margin-left: -780px;[m
+[31m-	/*padding: 0 0 8px 0;*/[m
+[31m-	position: fixed;[m
+[31m-	top: 160px;[m
+[31m-}[m
+[31m-#main-nav li {[m
+[31m-	padding: 0;[m
+[31m-	margin: 0 0 5px;[m
+[31m-	float: right;[m
+[31m-	clear: both;[m
+[31m-	list-style: none;[m
+[31m-	position: relative;[m
+[31m-}[m
+[31m-#main-nav a {[m
+[31m-	/*color: #8f0206*/;[m
+[31m-	color: /*#CC9999*/#646464;[m
+[31m-	/*color: #ff7260;Ô­À´µÄÑÕÉ«£¬ÎÄÕÂ±êÌâÒ²ÊÇ*/[m
+[31m-	text-decoration: none;[m
+[31m-	font-size: 14px;[m
+[31m-	line-height: 100%;[m
+[31m-	padding: 2px 8px 2px 8px;[m
+[31m-	-webkit-border-radius: 10em;[m
+[31m-	-moz-border-radius: 10em;[m
+[31m-	border-radius: 10em;[m
+[31m-	-webkit-transition: background-color .7s;[m
+[31m-	-moz-transition: background-color .7s;[m
+[31m-	-o-transition: background-color .7s;[m
+[31m-	transition: background-color .7s;[m
+[31m-}[m
+[31m-#main-nav a:hover {[m
+[31m-	color: /*#000*/#222222;[m
+[31m-	/*background-color: #f5ec82;*/[m
+[31m-	/*background-color: rgba(245,236,130,.8);*/[m
+[31m-}[m
+[31m-#main-nav .home a {[m
+[31m-	background-position: right -177px;[m
+[31m-}[m
+[31m-#main-nav .about a {[m
+[31m-	background-position: right -257px;[m
+[31m-}[m
+[31m-#main-nav .contact a {[m
+[31m-	background-position: right -339px;[m
+[31m-}[m
+[31m-#main-nav .archives a {[m
+[31m-	background-position: right -421px;[m
+[31m-}[m
+[31m-[m
+[31m-/* main nav dropdown */[m
+[31m-#main-nav ul {[m
+[31m-	text-align: left;[m
+[31m-	width: 235px !important;[m
+[31m-	display: block;[m
+[31m-	background: #fff799 url(images/line-bg.png) 0 3px;[m
+[31m-	border-top: solid 1px #fffbd0;[m
+[31m-	border-bottom: solid 1px #cdc77c;[m
+[31m-	position: absolute;[m
+[31m-	z-index: 100;[m
+[31m-	left: 62px;[m
+[31m-	top: -15px;[m
+[31m-	margin: 0;[m
+[31m-	width: 200px;[m
+[31m-	padding: 10px 15px 0;[m
+[31m-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);[m
+[31m-	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);[m
+[31m-	box-shadow: 0 1px 3px rgba(0,0,0,.2);[m
+[31m-	display: none;[m
+[31m-}[m
+[31m-#main-nav ul li {[m
+[31m-	margin: 0;[m
+[31m-	padding: 0;[m
+[31m-	list-style: none;[m
+[31m-	float: none;[m
+[31m-}[m
+[31m-#main-nav ul a {[m
+[31m-	background: none;[m
+[31m-	padding: 0;[m
+[31m-}[m
+[31m-#main-nav ul a:hover {[m
+[31m-	background: none;[m
+[31m-}[m
+[31m-#main-nav ul h4 {[m
+[31m-	font: normal 12px/100% Georgia, "Times New Roman", Times, serif;[m
+[31m-	color: #a09b60;[m
+[31m-	text-transform: uppercase;[m
+[31m-	margin: 0 0 4px;[m
+[31m-	letter-spacing: .1em;[m
+[31m-}[m
+[31m-#main-nav ul p {[m
+[31m-	margin: 0 0 14px;[m
+[31m-}[m
+[31m-#main-nav ul .categories a {[m
+[31m-	font-size: 105%;[m
+[31m-}[m
+[31m-#main-nav ul .tags {[m
+[31m-	font-size: 85%;[m
+[31m-	line-height: 135%;[m
+[31m-	word-wrap: break-word;[m
+[31m-	text-transform: lowercase;[m
+[31m-}[m
+[31m-#main-nav ul .tags a {[m
+[31m-	color: #7c784a;[m
+[31m-	margin-right: 8px;[m
+[31m-	-webkit-border-radius: 0;[m
+[31m-}[m
+[31m-#main-nav ul .tags a:hover {[m
+[31m-	color: #000;[m
+[31m-	text-decoration: none;[m
+[31m-	background: #feed21;[m
+[31m-	border-bottom: solid 1px #ded01c;[m
+[31m-}[m
+[31m-[m
+[31m-/* hover highlight */[m
+[31m-#main-nav li:hover > a {[m
+[31m-	background-color: #f5ec82;[m
+[31m-	background-color: rgba(245,236,130,.8);[m
+[31m-}[m
+[31m-#main-nav li:hover > ul a {[m
+[31m-	background-color: transparent;[m
+[31m-}[m
+[31m-[m
+[31m-/******************************[m
+[31m-/* Post styling[m
+[31m-/******************************/[m
+[31m-[m
+[31m-.post {[m
+[31m-	padding: 10px 0 20px 0;[m
+[31m-	line-height: 1.5em;[m
+[31m-	/*border-bottom: 5px solid #eee;*/[m
+[31m-}[m
+[31m-.single {[m
+[31m-	padding: 0;[m
+[31m-}[m
+[31m-.post header {[m
+[31m-	font-size: 14px;[m
+[31m-}[m
+[31m-.post header h2 {[m
+[31m-	font-size: 24px;[m
+[31m-	margin: 5px 0;[m
+[31m-	font-weight: normal;[m
+[31m-}[m
+[31m-.post header h2 a {[m
+[31m-	text-decoration: none;[m
+[31m-	color: #222222;[m
+[31m-	border-bottom: none;[m
+[31m-}[m
+[31m-.post header h2 a:hover {[m
+[31m-	border-bottom: none;[m
+[31m-	text-decoration: none;[m
+[31m-}[m
+[31m-.post header a.link-post {[m
+[31m-	/*text-decoration: underline;*/[m
+[31m-	/*color: #b5190e;*/[m
+[31m-	/*color: #FF0033;*/[m
+[31m-	color: #222222;[m
+[31m-	/*color: #CC9999;*/[m
+[31m-	/*color: #FD795B;*/[m
+[31m-	border-bottom: none;[m
+[31m-	font-weight: 350;[m
+[31m-	/*text-shadow: 0 2px 0 #fcf9ee, 0 3px 0 rgba(0,0,0,.15);*/[m
+[31m-	letter-spacing: -.03em;[m
+[31m-}[m
+[31m-.post header a.link-post:hover {[m
+[31m-	text-decoration: none;[m
+[31m-	color: #000;[m
+[31m-}[m
+[31m-.post header h3 {[m
+[31m-	margin: 5px 0;[m
+[31m-	font-weight: normal;[m
+[31m-}[m
+[31m-.post header .date {[m
+[31m-	color: gray;[m
+[31m-	font-style: italic;[m
+[31m-}[m
+[31m-.post header a.permalink {[m
+[31m-	font-style: italic;[m
+[31m-	padding: 0 2px;[m
+[31m-}[m
+[31m-.post header a.permalink:hover {[m
+[31m-	text-decoration: none;[m
+[31m-}[m
+[31m-.post blockquote {[m
+[31m-	color: #696969;[m
+[31m-	border-left: 2px solid #D4D4D4;[m
+[31m-	[m
+[31m-	font-size: 14px;[m
+[31m-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;[m
+[31m-[m
+[31m-	margin: 20px 15px;[m
+[31m-	padding: 0 20px;[m
+[31m-}[m
+[31m-.post a {[m
+[31m-	/*color: #b5190e;*/[m
+[31m-	color: #FF7260;[m
+[31m-	text-decoration: none;[m
+[31m-}[m
+[31m-.post a:hover {[m
+[31m-	text-decoration: underline;[m
+[31m-}[m
+[31m-.post pre {[m
+[31m-	padding: 10px 40px;[m
+[31m-	margin: 20px;[m
+[31m-	background: #eee;[m
+[31m-	border-left: 5px solid #a3a3a3;[m
+[31m-	color: #000;[m
+[31m-}[m
+[31m-[m
+[31m-/******************************[m
+[31m-/* Related posts[m
+[31m-/******************************/[m
+[31m-[m
+[31m-#related-posts {[m
+[31m-	margin-bottom: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-/************************************************************************************[m
+[31m-POST NAVIGATION[m
+[31m-*************************************************************************************/[m
+[31m-.post-nav {[m
+[31m-	background: url(images/dashed-double.png) repeat-x;[m
+[31m-	padding-top: 30px;[m
+[31m-	margin: 20px 0 10px;[m
+[31m-	clear: both;[m
+[31m-	font: normal 100%/140% 'Copse', Georgia, serif;[m
+[31m-}[m
+[31m-.post-nav li {[m
+[31m-	margin: 0 0 10px;[m
+[31m-	padding: 0;[m
+[31m-	list-style: none;[m
+[31m-	float: left;[m
+[31m-	width: 45%;[m
+[31m-}[m
+[31m-.post-nav span {[m
+[31m-	background: url(images/nav-icons.png) no-repeat -2px -977px;[m
+[31m-	width: 30px;[m
+[31m-	height: 30px;[m
+[31m-	display: block;[m
+[31m-	float: left;[m
+[31m-	margin: 3px 5px 25px 0;[m
+[31m-	-webkit-border-radius: 10em;[m
+[31m-	-moz-border-radius: 10em;[m
+[31m-	border-radius: 10em;[m
+[31m-	-webkit-transition: background-color .7s;[m
+[31m-	-moz-transition: background-color .7s;[m
+[31m-	-o-transition: background-color .7s;[m
+[31m-	transition: background-color .7s;[m
+[31m-}[m
+[31m-.post-nav em {[m
+[31m-	text-transform: uppercase;[m
+[31m-	display: block;[m
+[31m-	font: normal 11px "Lucida Grande", Arial, "Lucida Sans Unicode", sans-serif;[m
+[31m-	margin-bottom: 2px;[m
+[31m-	letter-spacing: .2em;[m
+[31m-	color: #7e7e73;[m
+[31m-}[m
+[31m-.post-nav a {[m
+[31m-	text-decoration: none;[m
+[31m-	font-size: 115%;[m
+[31m-	color: #91070b;[m
+[31m-}[m
+[31m-.post-nav a:hover {[m
+[31m-	text-decoration: none;[m
+[31m-	color: #000;[m
+[31m-}[m
+[31m-.post-nav a:hover span {[m
+[31m-	background-color: #f5ec82;[m
+[31m-	background-color: rgba(245,236,130,.8);[m
+[31m-}[m
+[31m-.post-nav .next {[m
+[31m-	float: right;[m
+[31m-	text-align: right;[m
+[31m-}[m
+[31m-.post-nav .next span {[m
+[31m-	float: right;[m
+[31m-	background-position: -2px -1072px;[m
+[31m-	margin: 3px 0 25px 5px;[m
+[31m-}[m
+[31m-[m
+[31m-/******************************[m
+[31m-/* Archive[m
+[31m-/******************************/[m
+[31m-[m
+[31m-.posts {[m
+[31m-	list-style: none;[m
+[31m-	padding: 0;[m
+[31m-	margin: 0;[m
+[31m-}[m
+[31m-.posts a {[m
+[31m-	text-decoration: none;[m
+[31m-}[m
+[31m-.posts a:hover {[m
+[31m-	text-decoration: underline;[m
+[31m-}[m
+[31m-.posts .date {[m
+[31m-	color: gray;[m
+[31m-}[m
+[31m-[m
+[31m-/******************************[m
+[31m-/* Footer [m
+[31m-/******************************/[m
+[31m-[m
+[31m-#footer {[m
+[31m-	font-size: 13px;[m
+[31m-	margin: 20px 0 0 0;[m
+[31m-	padding: 12px 0 12px 0;[m
+[31m-	border-top: 2px solid #eee;[m
+[31m-	line-height: 0.8em;[m
+[31m-}[m
+[31m-#footer .grid {[m
+[31m-	width: 30%;[m
+[31m-	float: left;[m
+[31m-}[m
+[31m-#footer .gridright {[m
+[31m-	width: 70%;[m
+[31m-	float: left;[m
+[31m-	text-align: right;[m
+[31m-}[m
+[31m-[m
+[31m-/******************************[m
+[31m-/* Comment[m
+[31m-/******************************/[m
+[31m-[m
+[31m-.comment {[m
+[31m-	margin: 20px 0 0 0;[m
+[31m-	padding: 12px 0 12px 0;[m
+[31m-	border-top: 1.5px dotted #eee;[m
+[31m-	line-height: 0.7em;[m
+[31m-}[m
+\ No newline at end of file[m
