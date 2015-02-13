@@ -63,11 +63,11 @@ h6 { font-size: 12px; }
 	font-style italic;
 }
 #header {
-	text-align: right;
+	text-align: left;
 	font-size: 50px;
 	float: left;
 	width: 150px;
-	margin-left: /*-175*/0px;
+	margin-left: /*-175*/-780px;
 	position: fixed;
 }
 #header a {
