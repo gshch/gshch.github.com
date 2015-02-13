@@ -66,8 +66,8 @@ h6 { font-size: 12px; }
 	text-align: left;
 	font-size: 50px;
 	float: left;
-	width: 150px;
-	margin-left: /*-175*/36px;
+	/*width: 150px;*/
+	margin-left: /*-175*/-780px;
 	position: fixed;
 }
 #header a {
@@ -141,7 +141,7 @@ MAIN NAV
 	margin-left: -780px;
 	/*padding: 0 0 8px 0;*/
 	position: fixed;
-	top: 160px;
+	top: 140px;
 }
 #main-nav li {
 	padding: 0;
