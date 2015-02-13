@@ -415,6 +415,10 @@ POST NAVIGATION
 	background-position: -2px -1072px;
 	margin: 3px 0 25px 5px;
 }
+.post-nav .prev {
+	float: left;
+	text-align: left;
+}
 
 /******************************
 /* Archive
