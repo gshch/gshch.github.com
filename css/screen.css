@@ -367,7 +367,6 @@ POST NAVIGATION
 	padding: 0;
 	list-style: none;
 	float: left;
-	text-align: left;
 	width: 45%;
 }
 .post-nav span {
@@ -414,10 +413,6 @@ POST NAVIGATION
 	float: right;
 	background-position: -2px -1072px;
 	margin: 3px 0 25px 5px;
-}
-.post-nav .prev {
-	float: left;
-	text-align: left;
 }
 
 /******************************
