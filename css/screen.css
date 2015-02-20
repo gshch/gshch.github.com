@@ -74,7 +74,7 @@ h6 { font-size: 12px; }
 	text-decoration: none;
 	text-shadow: 0 2px 0 #fcf9ee, 0 4px 0 rgba(0,0,0,.15);
 	/* 在这里改大标题颜色 */
-	/*color: #1A202C;*/
+	color: #1A202C;
 }
 #header a:hover {
 	text-decoration: none;
