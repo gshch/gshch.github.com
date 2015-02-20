@@ -281,7 +281,7 @@ MAIN NAV
 }
 .post header h2 a {
 	text-decoration: none;
-	color: #222222;
+	color: /*#222222*/#3D9140;
 	border-bottom: none;
 }
 .post header h2 a:hover {
@@ -292,7 +292,7 @@ MAIN NAV
 	/*text-decoration: underline;*/
 	/*color: #b5190e;*/
 	/*color: #FF0033;*/
-	color: #222222;
+	color: /*#222222*/#3D9140;
 	/*color: #CC9999;*/
 	/*color: #FD795B;*/
 	border-bottom: none;
