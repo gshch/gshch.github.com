@@ -277,7 +277,7 @@ MAIN NAV
 .post header h2 {
 	font-size: 24px;
 	margin: 5px 0;
-	font-weight: normal;
+	font-weight: /*normal*/bold;
 }
 .post header h2 a {
 	text-decoration: none;
@@ -296,7 +296,7 @@ MAIN NAV
 	/*color: #CC9999;*/
 	/*color: #FD795B;*/
 	border-bottom: none;
-	font-weight: 350;
+	font-weight: /*350*/500;
 	/*text-shadow: 0 2px 0 #fcf9ee, 0 3px 0 rgba(0,0,0,.15);*/
 	letter-spacing: -.03em;
 }
