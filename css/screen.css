@@ -44,7 +44,7 @@ h6 { font-size: 12px; }
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-	#wrapper { width: 95%; }
+	#wrapper { width: /*95%*/auto; }
 }
 
 /******************************
