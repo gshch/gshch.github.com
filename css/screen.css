@@ -428,6 +428,7 @@ POST NAVIGATION
 }
 .posts a {
 	text-decoration: none;
+	color: #3D9140;
 }
 .posts a:hover {
 	text-decoration: underline;
