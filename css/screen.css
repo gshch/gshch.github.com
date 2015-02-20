@@ -277,7 +277,7 @@ MAIN NAV
 .post header h2 {
 	font-size: 20px;
 	margin: 5px 0;
-	font-weight: /*normal*/bold;
+	font-weight: normal;
 }
 .post header h2 a {
 	text-decoration: none;
@@ -307,7 +307,7 @@ MAIN NAV
 }
 .post header h3 {
 	margin: 5px 0;
-	font-weight: normal;
+	font-weight: /*normal*/bold;
 }
 .post header .date {
 	color: gray;
