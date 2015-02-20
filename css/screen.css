@@ -251,8 +251,8 @@ MAIN NAV
 
 /* hover highlight */
 #main-nav li:hover > a {
-	background-color: #f5ec82;
-	background-color: rgba(245,236,130,.8);
+	background-color: /*#f5ec82*/#3D9140;
+	background-color: /*rgba(245,236,130,.8)*/rgba(61,145,64,.8);
 }
 #main-nav li:hover > ul a {
 	background-color: transparent;
