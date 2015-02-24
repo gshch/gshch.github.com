@@ -68,8 +68,9 @@ h6 { font-size: 12px; }
 	font-size: 50px;
 	float: left;
 	width: 150px;
-	margin-left: -210px;
-	position: fixed;
+	/*margin-left: -210px;*/
+	/*position: fixed;*/
+	float: left;
 }
 #header a {
 	text-decoration: none;
@@ -83,9 +84,10 @@ h6 { font-size: 12px; }
 
 /* back to top */
 .scrollup {
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
-	margin-left: -220px;
+	/*margin-left: -220px;*/
+	float: left;
 	width: 180px;
 	text-align: right;
 	display:none;
@@ -139,9 +141,10 @@ h6 { font-size: 12px; }
 MAIN NAV
 /*************************************************************************************/
 #main-nav {
-	margin-left: -780px;
+	/*margin-left: -780px;Áô×Å*/
+	float: left;
 	/*padding: 0 0 8px 0;*/
-	position: fixed;
+	/*position: fixed;Áô×Å*/
 	top: 120px;
 }
 #main-nav li {
