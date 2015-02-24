@@ -452,7 +452,7 @@ MAIN NAV
 	/*background-color: #f5ec82;*/
 	/*background-color: rgba(245,236,130,.8);*/
 }
-#main-nav .home a {
+/*#main-nav .home a {
 	background-position: right -177px;
 }
 #main-nav .about a {
@@ -463,7 +463,7 @@ MAIN NAV
 }
 #main-nav .archives a {
 	background-position: right -421px;
-}
+}*/
 
 /* main nav dropdown */
 #main-nav ul {
