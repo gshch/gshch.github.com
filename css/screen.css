@@ -359,7 +359,7 @@ MAIN NAV
 POST NAVIGATION
 *************************************************************************************/
 .post-nav {
-	background: url(images/dashed-double.png) repeat-x;
+	/*background: url(images/dashed-double.png) repeat-x;*/
 	padding-top: 30px;
 	margin: 20px 0 10px;
 	clear: both;
@@ -407,6 +407,10 @@ POST NAVIGATION
 .post-nav a:hover span {
 	background-color: #f5ec82;
 	background-color: rgba(245,236,130,.8);
+}
+.post-nav .prev {
+	float: left;
+	text-align: left;
 }
 .post-nav .next {
 	float: right;
