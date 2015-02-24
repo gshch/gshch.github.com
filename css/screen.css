@@ -68,7 +68,7 @@ h6 { font-size: 12px; }
 	font-size: 50px;
 	float: left;
 	width: 150px;
-	margin-left: -210px;
+	/*margin-left: -210px;*/
 	position: fixed;
 }
 #header a {
@@ -139,7 +139,8 @@ h6 { font-size: 12px; }
 MAIN NAV
 /*************************************************************************************/
 #main-nav {
-	margin-left: -780px;
+	/*margin-left: -780px;*/
+	float: left;
 	/*padding: 0 0 8px 0;*/
 	position: fixed;
 	top: 140px;
@@ -267,10 +268,12 @@ MAIN NAV
 .post {
 	padding: 10px 0 20px 0;
 	line-height: 1.5em;
+	float: right;
 	/*border-bottom: 5px solid #eee;*/
 }
 .single {
 	padding: 0;
+	float: right;
 }
 .post header {
 	font-size: 14px;
@@ -445,6 +448,7 @@ POST NAVIGATION
 #footer {
 	font-size: 13px;
 	margin: 20px 0 0 0;
+	float: right;
 	padding: 12px 0 12px 0;
 	border-top: 2px solid #eee;
 	line-height: 0.8em;
@@ -465,6 +469,7 @@ POST NAVIGATION
 
 .comment {
 	margin: 20px 0 0 0;
+	float: right;
 	padding: 12px 0 12px 0;
 	border-top: 1.5px dotted #eee;
 	line-height: 0.7em;
