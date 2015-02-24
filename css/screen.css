@@ -83,7 +83,7 @@ h6 { font-size: 12px; }
 
 /* back to top */
 .scrollup {
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
 	margin-left: -220px;
 	/*width: 180px;*/
