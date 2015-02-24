@@ -448,7 +448,6 @@ POST NAVIGATION
 #footer {
 	font-size: 13px;
 	margin: 20px 0 0 0;
-	float: right;
 	padding: 12px 0 12px 0;
 	border-top: 2px solid #eee;
 	line-height: 0.8em;
@@ -469,7 +468,6 @@ POST NAVIGATION
 
 .comment {
 	margin: 20px 0 0 0;
-	float: right;
 	padding: 12px 0 12px 0;
 	border-top: 1.5px dotted #eee;
 	line-height: 0.7em;
