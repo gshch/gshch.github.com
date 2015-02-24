@@ -117,15 +117,6 @@ h6 { font-size: 12px; }
 	#header {
 		padding-top: 40px;
 	}
-	#contentwrap {
-		margin-right: 0;
-		float: none;
-		width: auto;
-	}
-	#content {
-		margin-right: 0;
-		padding-right: 0;
-	}
 	#footer {
 		width: auto;
 		margin: 0 0 20px;
@@ -370,20 +361,6 @@ MAIN NAV
 }
 #main-nav li:hover > ul a {
 	background-color: transparent;
-}
-
-/************************************************************************************
-CONTENT
-*************************************************************************************/
-#contentwrap {
-	margin-right: -268px;
-	margin-bottom: 60px;
-	float: left;
-	width: 100%;
-}
-#content {
-	margin-right: 268px;
-	padding-right: 7.4%;
 }
 
 /******************************
