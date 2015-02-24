@@ -398,7 +398,7 @@ POST NAVIGATION
 .post-nav a {
 	text-decoration: none;
 	font-size: 115%;
-	color: #91070b;
+	color: /*#91070b*/#3D9140;
 }
 .post-nav a:hover {
 	text-decoration: none;
@@ -411,6 +411,7 @@ POST NAVIGATION
 .post-nav .prev {
 	float: left;
 	text-align: left;
+	font-size: 200%;
 }
 .post-nav .next {
 	float: right;
