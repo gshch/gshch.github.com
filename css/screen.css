@@ -361,6 +361,7 @@ POST NAVIGATION
 .post-nav {
 	/*background: url(images/dashed-double.png) repeat-x;*/
 	padding-top: 30px;
+	padding-left: 0;
 	margin: 20px 0 10px;
 	/*clear: both;*/
 	font: normal 100%/140% 'Copse', Georgia, serif;
